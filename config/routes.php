@@ -20,4 +20,12 @@ Router::prefix('admin', function ($routes) {
   $routes->fallbacks('DashedRoute');
 });
 
+
+// API
+Router::prefix('api', function ($routes) {
+  $routes->extensions(['json']);
+  $routes->resources('Users');
+  Router::connect('/api/login', ['controller' => 'Users', 'action' => 'login', 'prefix' => 'api']);
+  $routes->fallbacks('DashedRoute');
+});
 Plugin::routes();
