@@ -62,7 +62,7 @@ $this->addBehavior('Search.Search');
             'joinType' => 'INNER'
         ]);
         $this->belongsTo('Stations', [
-            'foreignKey' => 'too',
+            'foreignKey' => 'to',
             'joinType' => 'INNER'
         ]);
     }

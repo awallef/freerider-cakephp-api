@@ -17,7 +17,10 @@ return [
     /* Menu admin
     *************************/
     'admin' => [
-      '<i class="material-icons">photo</i><p>'.__('Attachments').'</p>' => ['controller' => 'Attachments', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
-      '<i class="material-icons">done</i><p>'.__('Users').'</p>' => ['controller' => 'Users', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
+      '<i class="material-icons">directions_bus</i>'.__('Stations').'</p>' => ['controller' => 'Stations', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
+      '<i class="material-icons">timeline</i>'.__('Lines').'</p>' => ['controller' => 'Lines', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
+      '<i class="material-icons">save</i>'.__('Records').'</p>' => ['controller' => 'Records', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
+      //'<i class="material-icons">photo</i><p>'.__('Attachments').'</p>' => ['controller' => 'Attachments', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
+      '<i class="material-icons">supervisor_account</i>'.__('Users').'</p>' => ['controller' => 'Users', 'action' => 'index','prefix' => 'admin', 'plugin' => false],
     ],
 ]];
