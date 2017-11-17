@@ -240,3 +240,6 @@ Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
 
 // menus
 Configure::load('menus');
+
+// GoogleApi
+Plugin::load('Awallef/GoogleMaps');
