@@ -22,7 +22,7 @@ class AppController extends Controller
       'listeners' => [
         //'CrudCache',
         'Crud.Api',
-        //'Crud.ApiPagination',
+        'Crud.ApiPagination',
         //'Crud.ApiQueryLog',
         'Crud.Search'
       ]

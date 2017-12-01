@@ -13,7 +13,8 @@
         "3xw/attachment": "3.5.*",
         "friendsofcake/crud": "^5.2",
         "admad/cakephp-jwt-auth": "^2.2",
-        "awallef/cakephp-google-maps": "dev-master"
+        "awallef/cakephp-google-maps": "dev-master",
+        "friendsofcake/search": "^3.1"
     },
     "require-dev": {
         "psy/psysh": "@stable",
